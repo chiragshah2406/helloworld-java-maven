@@ -37,13 +37,13 @@
 	<repository>
 		<id>deployment</id>
 		<name>Internal Releases</name>
-		<url>http://192.168.0.13:8081/nexus/content/repositories/mph/</url>
+		<url>http://localhost:8081/nexus/content/repositories/mph/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>deployment</id>
 		<name>Internal Releases</name>
-		<url>http://192.168.0.13:8081/nexus/content/repositories/mphsnap/</url>
+		<url>http://localhost:8081/nexus/content/repositories/mphsnap/</url>
 	</snapshotRepository>
 
 </distributionManagement>
